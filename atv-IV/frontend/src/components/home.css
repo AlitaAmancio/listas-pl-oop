@@ -1,0 +1,79 @@
+.tamanho-imagem {
+    width: 100%;
+    max-width: 1500px;
+    height: 300px;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+.img1,
+.img2,
+.img3,
+.img4 {
+    width: 100%;
+    height: auto;
+    max-width: fit-content;
+    display: block;
+    margin: -160px auto 0;
+
+}
+
+.petlovers {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 300%;
+    align-items: center;
+    justify-content: end;
+    display: flex;
+    margin-right: 20%;
+    background-color: #00ced1;
+    border-radius: 0 50px 50px 0;
+    padding-right: 1%;
+    margin-bottom: 2%;
+}
+
+.petlovers .petloversicon {
+    padding: 1%;
+    display: inline;
+    height: 8%;
+    width: 8%;
+    border-radius: 50px;
+    background-color: #e6f7ff;
+}
+
+.cards {
+    margin-bottom: 2%;
+}
+
+.col .card {
+    background-color: #f0f8ff;
+    border: 1px solid #b0c4de;
+    width: 70%;
+    flex-direction: row;
+    transition: box-shadow 0.3s ease;
+    text-align: justify;
+    padding-right: 0%;
+    height: fit-content;
+}
+
+.col .card:hover {
+    box-shadow: 0 0 10px rgba(0, 227, 231, 0.521);
+}
+
+.col .card .card-body .card-title .a {
+    text-decoration: none;
+    color: black;
+}
+.col .card .card-body .card-title .a:hover {
+    color: rgba(0, 227, 231, 0.521);
+}
+
+.col .card .img-fluid {
+    width: 50%;
+    height: auto;
+    border-radius: 0 5px 5px 0;
+    align-items: end;
+}
+
+.col .card .text {
+    width: 48%;
+}
