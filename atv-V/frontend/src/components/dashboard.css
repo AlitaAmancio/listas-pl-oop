@@ -1,0 +1,22 @@
+.margin-lista {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 80%;
+  margin: 20px auto; /* Adicione 'auto' para centralizar horizontalmente */
+}
+
+.double-table {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Ajuste o valor conforme necessário para alterar o espaço entre as tabelas */
+}
+
+.half-width {
+  width: 90%; /* Ajuste conforme necessário */
+  margin-top: 15px;
+}
